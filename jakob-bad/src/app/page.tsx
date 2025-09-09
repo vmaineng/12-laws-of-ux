@@ -1,12 +1,13 @@
 "use client";
-import Navbar from "./components/Navbar";
+
 import ProductPage from "./components/ProductPage";
+import BottomNavbar from "./components/BottomNavbar";
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <ProductPage />
+      <BottomNavbar />
     </div>
   );
 }
