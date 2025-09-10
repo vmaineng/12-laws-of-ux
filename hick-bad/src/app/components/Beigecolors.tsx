@@ -60,6 +60,7 @@ const Beigecolors = () => {
             className="w-20 h-20 rounded shadow"
             style={{ backgroundColor: swatch.hex }}
           ></div>
+          <span>{swatch.name}</span>
         </div>
       ))}
     </div>
